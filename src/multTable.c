@@ -21,7 +21,20 @@ int main(int argc, char **argv) {
     exit(0);
   }
 
-  //TODO: place your code here
+else{
+  int printer=1;
+  for(int i=1; i<=n;i++)
+  {
+    printf("%d", printer);
+  }
+    for(int j=1 ; j<=n; j++)
+    {
+      printf("\n");
+      printer++;
+
+    
+  }
+}
 
   return 0;
 }
