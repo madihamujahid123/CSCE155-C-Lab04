@@ -35,9 +35,9 @@ int main(int argc, char **argv) {
 
   //2. Rewrite the given while loop as an equivalent for loop
   int k = 3;
-  while(k > -4) {
+  for(int k=3; k>=3;k--) 
+  {
     printf("%d ", k);
-    k--;
   }
   printf("\n");
 
