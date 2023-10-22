@@ -120,6 +120,22 @@ printf("=%d\n",sum2);
   //   If the integer is divisible by 11 print "Bar" instead.  If
   //   the integer is divisible by both 7 and 11, print "FooBar"
   //   instead.
+  for(int i=1; i<=n;i++)
+  {
+    if(i%7==0 && i%11==0)
+    {
+      printf("foobar\n");
+    }
+    else if(i%7==0)
+    {
+      printf("foo\n");
+    }
+    else if (i%11==0)
+    {
+      printf("bar\n");
+    }
+  }
+  
 
   return 0;
 }
